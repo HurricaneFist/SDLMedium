@@ -34,7 +34,7 @@ int main(int argc, char** args) {
                     case DOWN:  vy +=  1; break;
                     case LEFT:  vx += -1; break;
                     case RIGHT: vx +=  1; break;
-                } printf("%f %f\n",vx,vy);
+                }
 
             } else if (SDL::keyUp()) {
                 if (SDL::key() == RIGHT || SDL::key() == LEFT)
